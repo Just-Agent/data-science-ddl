@@ -1,0 +1,93 @@
+{
+  "topicId": "data-science-ddl",
+  "generatedAt": "2026-05-15T18:03:01.914Z",
+  "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
+  "sourceFamilies": [
+    {
+      "id": "kaggle",
+      "name": "Kaggle Competitions",
+      "url": "https://www.kaggle.com/competitions",
+      "adapter": "kaggleAdapter",
+      "confidence": "official-aggregator"
+    },
+    {
+      "id": "tianchi",
+      "name": "Alibaba Tianchi",
+      "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+      "adapter": "tianchiAdapter",
+      "confidence": "official-aggregator"
+    },
+    {
+      "id": "drivendata",
+      "name": "DrivenData Competitions",
+      "url": "https://www.drivendata.org/competitions/",
+      "adapter": "drivenDataAdapter",
+      "confidence": "official-aggregator"
+    },
+    {
+      "id": "codalab",
+      "name": "Codalab Competitions",
+      "url": "https://codalab.lisn.upsaclay.fr/competitions/",
+      "adapter": "codalabAdapter",
+      "confidence": "official-aggregator"
+    }
+  ],
+  "itemSources": [
+    {
+      "name": "Kaggle Competitions",
+      "url": "https://www.kaggle.com/competitions",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "阿里云天池竞赛",
+      "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "DataCastle",
+      "url": "https://www.pkbigdata.com",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "DrivenData Competitions",
+      "url": "https://www.drivendata.org/competitions/",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "Zindi Competitions",
+      "url": "https://zindi.africa/competitions",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "KDD Cup",
+      "url": "https://www.kdd.org/kdd-cup",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "OpenML",
+      "url": "https://www.openml.org",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    },
+    {
+      "name": "RecSys Challenge",
+      "url": "https://www.recsyschallenge.com",
+      "type": "item-source",
+      "confidence": "official-or-official-entry",
+      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
+    }
+  ]
+}
