@@ -1,6 +1,6 @@
 {
   "topicId": "data-science-ddl",
-  "generatedAt": "2026-05-16T07:42:54.403Z",
+  "generatedAt": "2026-05-16T10:00:33.324Z",
   "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
   "sourceFamilies": [
     {
@@ -41,57 +41,8 @@
   ],
   "itemSources": [
     {
-      "name": "Kaggle Competitions",
-      "url": "https://www.kaggle.com/competitions",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "阿里云天池竞赛",
-      "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "DataCastle",
-      "url": "https://www.pkbigdata.com",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
       "name": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "Zindi Competitions",
-      "url": "https://zindi.africa/competitions",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "KDD Cup",
-      "url": "https://www.kdd.org/kdd-cup",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "OpenML",
-      "url": "https://www.openml.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "RecSys Challenge",
-      "url": "https://www.recsyschallenge.com",
+      "url": "https://www.drivendata.org/competitions/297/whats-up-docs/",
       "type": "item-source",
       "confidence": "official-or-official-entry",
       "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
