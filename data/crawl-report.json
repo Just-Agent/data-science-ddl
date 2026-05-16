@@ -1,0 +1,213 @@
+{
+  "topicId": "data-science-ddl",
+  "generatedAt": "2026-05-16T07:43:28.022Z",
+  "adapterCount": 5,
+  "reachableCount": 5,
+  "parsedItemCount": 6,
+  "previousParsedItemCount": 6,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "kaggle",
+      "source": "Kaggle Competitions",
+      "url": "https://www.kaggle.com/competitions",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/competitions",
+      "title": "AI Competitions and Hackathons | Kaggle",
+      "contentLength": 5148,
+      "fetchedAt": "2026-05-16T07:43:04.069Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "tianchi",
+      "source": "Alibaba Tianchi",
+      "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://tianchi.aliyun.com/competition/",
+      "title": "天池大数据竞赛_天池大赛-阿里云天池",
+      "contentLength": 46121,
+      "fetchedAt": "2026-05-16T07:43:04.841Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "drivendata",
+      "source": "DrivenData Competitions",
+      "url": "https://www.drivendata.org/competitions/",
+      "items": [
+        {
+          "id": "drivendata-297-whats-up-docs",
+          "title": "What's Up, Docs? Document Summarization with LLMs",
+          "deadline": "2027-04-01T23:59:00Z",
+          "dateRange": "April 1, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "development",
+            "science"
+          ],
+          "url": "https://www.drivendata.org/competitions/297/whats-up-docs/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "drivendata-66-flu-shot-learning",
+          "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+          "deadline": "2027-07-30T23:59:00Z",
+          "dateRange": "July 30, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "health"
+          ],
+          "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
+          "title": "Pump it Up: Data Mining the Water Table",
+          "deadline": "2027-10-05T23:59:00Z",
+          "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "development"
+          ],
+          "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "drivendata-44-dengai-predicting-disease-spread",
+          "title": "DengAI: Predicting Disease Spread",
+          "deadline": "2027-10-05T23:59:00Z",
+          "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "health"
+          ],
+          "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "drivendata-57-nepal-earthquake",
+          "title": "Richter's Predictor: Modeling Earthquake Damage",
+          "deadline": "2027-10-05T23:59:00Z",
+          "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "disasters"
+          ],
+          "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "drivendata-87-competition-image-classification-wildlife-conservation",
+          "title": "Conser-vision Practice Area: Image Classification",
+          "deadline": "2027-10-05T23:59:00Z",
+          "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "data science",
+            "competition",
+            "DrivenData",
+            "climate"
+          ],
+          "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
+          "status": "upcoming",
+          "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Competitions",
+          "type": "challenge"
+        }
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.drivendata.org/competitions/",
+      "title": "\n      Competitions\n    ",
+      "contentLength": 339647,
+      "fetchedAt": "2026-05-16T07:43:05.273Z",
+      "note": "Parsed 6 items from DrivenData; rejected 62 entries.",
+      "error": null,
+      "parsedItemCount": 6,
+      "invalidItemCount": 62,
+      "parserHealthy": true
+    },
+    {
+      "sourceId": "zindi",
+      "source": "Zindi Africa",
+      "url": "https://zindi.africa/competitions",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://zindi.africa/competitions",
+      "title": "Zindi Challenges - Solve Real-World Challenges With AI",
+      "contentLength": 30280,
+      "fetchedAt": "2026-05-16T07:43:11.415Z",
+      "note": "Zindi reachable, but no trustworthy future deadlines were exposed in HTML; not blocking other parsers.",
+      "error": null,
+      "parsedItemCount": 0,
+      "invalidItemCount": 0,
+      "parserHealthy": true
+    },
+    {
+      "sourceId": "codalab",
+      "source": "Codalab Competitions",
+      "url": "https://codalab.lisn.upsaclay.fr/competitions/",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://codalab.lisn.upsaclay.fr/competitions/",
+      "title": "CodaLab - Competitions",
+      "contentLength": 1508857,
+      "fetchedAt": "2026-05-16T07:43:12.093Z",
+      "note": "Codalab reachable, but no trustworthy future deadlines were exposed in HTML; not blocking other parsers.",
+      "error": null,
+      "parsedItemCount": 0,
+      "invalidItemCount": 1255,
+      "parserHealthy": true
+    }
+  ]
+}

@@ -106,8 +106,8 @@
         <h1>数据科学竞赛</h1>
         <p class="lead">Kaggle、天池、DataCastle、数据挖掘会议与数据挑战赛截止日。每条事件都显示倒计时，并保留来源入口，方便后续 crawler 自动校验。</p>
         <div class="stats">
-          <div class="stat"><strong>16</strong><span>活跃条目</span></div>
-          <div class="stat"><strong>4</strong><span>来源族</span></div>
+          <div class="stat"><strong id="itemCount">-</strong><span>活跃条目</span></div>
+          <div class="stat"><strong>5</strong><span>来源族</span></div>
           <div class="stat"><strong id="nextDays">-</strong><span>下一条</span></div>
         </div>
       </div>
@@ -117,6 +117,7 @@
           <div class="source-line"><a href="https://www.kaggle.com/competitions">Kaggle Competitions</a><div class="meta">official-aggregator · kaggleAdapter</div></div>
           <div class="source-line"><a href="https://tianchi.aliyun.com/competition/gameList/activeList">Alibaba Tianchi</a><div class="meta">official-aggregator · tianchiAdapter</div></div>
           <div class="source-line"><a href="https://www.drivendata.org/competitions/">DrivenData Competitions</a><div class="meta">official-aggregator · drivenDataAdapter</div></div>
+          <div class="source-line"><a href="https://zindi.africa/competitions">Zindi Competitions</a><div class="meta">official-aggregator · zindiAdapter</div></div>
           <div class="source-line"><a href="https://codalab.lisn.upsaclay.fr/competitions/">Codalab Competitions</a><div class="meta">official-aggregator · codalabAdapter</div></div>
         </div>
       </aside>
@@ -129,9 +130,9 @@
   </main>
   <footer>数据科学竞赛 DDL is part of Just-DDL Network. Generated as a production-ready topic repository scaffold.</footer>
   <script>
-    const items = [{"id":"data-science-ddl-kaggle-playground-series-monthly-2026-07-01","title":"Kaggle Playground Series Monthly","deadline":"2026-07-01T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-alibaba-tianchi-ai-competition-2026-07-19","title":"Alibaba Tianchi AI Competition","deadline":"2026-07-19T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://tianchi.aliyun.com/competition/gameList/activeList","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"阿里云天池竞赛","type":"challenge"},{"id":"data-science-ddl-datacastle-financial-risk-track-2026-08-06","title":"DataCastle Financial Risk Track","deadline":"2026-08-06T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.pkbigdata.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"DataCastle","type":"challenge"},{"id":"data-science-ddl-drivendata-climate-forecast-challenge-2026-08-24","title":"DrivenData Climate Forecast Challenge","deadline":"2026-08-24T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.drivendata.org/competitions/","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"DrivenData Competitions","type":"challenge"},{"id":"data-science-ddl-zindi-africa-ml-challenge-2026-09-11","title":"Zindi Africa ML Challenge","deadline":"2026-09-11T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://zindi.africa/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Zindi Competitions","type":"challenge"},{"id":"data-science-ddl-kdd-cup-practice-window-2026-09-29","title":"KDD Cup Practice Window","deadline":"2026-09-29T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kdd.org/kdd-cup","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"KDD Cup","type":"challenge"},{"id":"data-science-ddl-neurips-data-centric-ai-workshop-2026-10-17","title":"NeurIPS Data-Centric AI Workshop","deadline":"2026-10-17T23:59:59","dateRange":"Oct 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-openml-benchmark-refresh-2026-11-04","title":"OpenML Benchmark Refresh","deadline":"2026-11-04T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.openml.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"OpenML","type":"challenge"},{"id":"data-science-ddl-m5-forecasting-refresh-2026-11-22","title":"M5 Forecasting Refresh","deadline":"2026-11-22T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-urban-data-challenge-2026-12-10","title":"Urban Data Challenge","deadline":"2026-12-10T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-healthcare-claims-prediction-track-2026-12-28","title":"Healthcare Claims Prediction Track","deadline":"2026-12-28T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-graph-ml-data-challenge-2027-01-15","title":"Graph ML Data Challenge","deadline":"2027-01-15T23:59:59","dateRange":"Jan 2027","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-recommender-systems-challenge-2027-02-02","title":"Recommender Systems Challenge","deadline":"2027-02-02T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.recsyschallenge.com","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"RecSys Challenge","type":"challenge"},{"id":"data-science-ddl-time-series-forecasting-cup-2027-02-20","title":"Time Series Forecasting Cup","deadline":"2027-02-20T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-data-visualization-storytelling-challenge-2027-03-10","title":"Data Visualization Storytelling Challenge","deadline":"2027-03-10T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"data-science-ddl-open-data-impact-sprint-2027-03-28","title":"Open Data Impact Sprint","deadline":"2027-03-28T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["Kaggle","data mining","ML"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"}];
+    let items = [];
+    let sorted = [];
     const formatter = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
-    const sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
     function diffParts(deadline) {
       const ms = new Date(deadline) - new Date();
       const positive = Math.max(0, ms);
@@ -141,6 +142,7 @@
       return { days, hours, minutes, ended: ms < 0 };
     }
     function render() {
+      sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
       const root = document.getElementById('events');
       const htmlEscape = value => String(value || '')
         .replaceAll('&', '&amp;')
@@ -148,6 +150,11 @@
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#39;');
+      if (!sorted.length) {
+        root.innerHTML = '<article class="event"><h3>暂无可展示条目</h3><div class="desc">数据文件暂不可用，请稍后刷新。</div></article>';
+        document.getElementById('itemCount').textContent = '0';
+        return;
+      }
       root.innerHTML = sorted.map(item => {
         const diff = diffParts(item.deadline);
         const tags = (item.tags || []).map(tag => '<span class="tag">' + htmlEscape(tag) + '</span>').join('');
@@ -165,10 +172,21 @@
           '<a class="button" href="' + htmlEscape(encodeURI(item.url)) + '">查看来源</a>' +
         '</article>';
       }).join('');
+      document.getElementById('itemCount').textContent = String(sorted.length);
       const next = sorted.find(item => new Date(item.deadline) >= new Date()) || sorted[0];
       if (next) document.getElementById('nextDays').textContent = diffParts(next.deadline).days + ' 天后';
     }
-    render();
+    async function loadItems() {
+      try {
+        const response = await fetch('data/items.json', { cache: 'no-store' });
+        if (response.ok) {
+          const freshItems = await response.json();
+          if (Array.isArray(freshItems) && freshItems.length) items = freshItems;
+        }
+      } catch {}
+      render();
+    }
+    loadItems();
     setInterval(render, 60000);
   </script>
 </body>
