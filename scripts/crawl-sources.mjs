@@ -47,7 +47,6 @@ async function fetchSourcePage(source) {
   }
   return report;
 }
-
 async function kaggleAdapter() {
   return fetchSourcePage({ id: "kaggle", name: "Kaggle Competitions", url: "https://www.kaggle.com/competitions" });
 }
@@ -67,6 +66,11 @@ async function codalabAdapter() {
 const adapters = [kaggleAdapter, tianchiAdapter, drivenDataAdapter, codalabAdapter];
 const existingItemsUrl = new URL('../data/items.json', import.meta.url);
 const existingItems = JSON.parse(fs.readFileSync(existingItemsUrl, 'utf8'));
+let previousParsedItemCount = null;
+try {
+  const previousReport = JSON.parse(fs.readFileSync(new URL('../data/crawl-report.json', import.meta.url), 'utf8'));
+  previousParsedItemCount = previousReport.parsedItemCount ?? null;
+} catch {}
 const reports = [];
 
 for (const adapter of adapters) {
@@ -74,20 +78,28 @@ for (const adapter of adapters) {
 }
 
 const harvestedItems = reports.flatMap(report => report.items);
-if (harvestedItems.length > 0) {
+const parsedItemCount = reports.reduce((s, r) => s + (r.parsedItemCount || 0), 0);
+const parserHealthy = reports.every(r => r.parserHealthy !== false);
+const parserDropOk = previousParsedItemCount === null || parsedItemCount >= Math.floor(previousParsedItemCount * 0.5);
+if (harvestedItems.length >= 1 && parserHealthy && parserDropOk) {
   fs.writeFileSync(existingItemsUrl, JSON.stringify(harvestedItems, null, 2) + '\n', 'utf8');
-  console.log(`crawler wrote ${harvestedItems.length} fetched items`);
+  console.log('crawler wrote ' + harvestedItems.length + ' fetched items');
 } else {
-  console.log(`no verified item parser emitted items; preserving ${existingItems.length} curated items in data/items.json`);
+  console.log('parser emitted ' + harvestedItems.length + ' items (health gate failed or threshold not met); preserving ' + existingItems.length + ' curated items in data/items.json');
 }
 
 const reachableCount = reports.filter(r => r.reachable).length;
-console.log(`reachability: ${reachableCount}/${reports.length} sources reachable`);
+console.log('reachability: ' + reachableCount + '/' + reports.length + ' sources reachable');
+if (parsedItemCount > 0) console.log('parsedItemCount: ' + parsedItemCount);
 
 fs.writeFileSync(new URL('../data/crawl-report.json', import.meta.url), JSON.stringify({
   topicId: "data-science-ddl",
   generatedAt: new Date().toISOString(),
   adapterCount: reports.length,
   reachableCount,
+  parsedItemCount,
+  previousParsedItemCount,
+  parserHealthy,
+  parserDropOk,
   adapters: reports
 }, null, 2) + '\n', 'utf8');
