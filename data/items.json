@@ -41,8 +41,8 @@
     "type": "challenge"
   },
   {
-    "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
-    "title": "Pump it Up: Data Mining the Water Table",
+    "id": "drivendata-87-competition-image-classification-wildlife-conservation",
+    "title": "Conser-vision Practice Area: Image Classification",
     "deadline": "2027-10-05T23:59:00Z",
     "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
     "location": "Online",
@@ -51,9 +51,9 @@
       "data science",
       "competition",
       "DrivenData",
-      "development"
+      "climate"
     ],
-    "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+    "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
     "status": "upcoming",
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
@@ -81,6 +81,26 @@
     "type": "challenge"
   },
   {
+    "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
+    "title": "Pump it Up: Data Mining the Water Table",
+    "deadline": "2027-10-05T23:59:00Z",
+    "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "data science",
+      "competition",
+      "DrivenData",
+      "development"
+    ],
+    "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+    "status": "upcoming",
+    "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
+    "stage": "Deadline",
+    "source": "DrivenData Competitions",
+    "type": "challenge"
+  },
+  {
     "id": "drivendata-57-nepal-earthquake",
     "title": "Richter's Predictor: Modeling Earthquake Damage",
     "deadline": "2027-10-05T23:59:00Z",
@@ -94,26 +114,6 @@
       "disasters"
     ],
     "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
-    "status": "upcoming",
-    "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
-    "stage": "Deadline",
-    "source": "DrivenData Competitions",
-    "type": "challenge"
-  },
-  {
-    "id": "drivendata-87-competition-image-classification-wildlife-conservation",
-    "title": "Conser-vision Practice Area: Image Classification",
-    "deadline": "2027-10-05T23:59:00Z",
-    "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
-    "location": "Online",
-    "isOnline": true,
-    "tags": [
-      "data science",
-      "competition",
-      "DrivenData",
-      "climate"
-    ],
-    "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
     "status": "upcoming",
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
